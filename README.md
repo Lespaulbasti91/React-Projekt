@@ -111,10 +111,14 @@ After creation, your project should look like this:
 ```
 my-app/
   README.md
+  css/
+    style.css
   node_modules/
   package.json
+  sass/
+    stlyle.scss
   public/
-    index.html
+    bundle.js
     favicon.ico
   src/
     App.css
