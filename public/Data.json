@@ -1,0 +1,16 @@
+{
+  "sectionData":[
+    {
+      "title": "Landing Page Section",
+      "typ": "landingPage"
+    },
+    {
+      "title": "Input Section",
+      "typ": "inputSection"
+    },
+    {
+      "title": "Map Section",
+      "typ": "mapSection"
+    }
+  ]
+}

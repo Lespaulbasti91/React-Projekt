@@ -1,8 +1,3 @@
-body{
-  background-color: black;
-  color: white;
-}
-
-html{
-  color: black;
-}
+@import "components/body-sections";
+@import "components/header";
+@import "components/footer";
