@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Grid, Row, Col, Form, FormGroup, FormControl, ControlLabel ,Panel, Button } from 'react-bootstrap';
+import { Grid, Row, Col, Form, FormGroup, FormControl, ControlLabel, Panel, Button } from 'react-bootstrap';
 
 class InputSection extends Component {
 
