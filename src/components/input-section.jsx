@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { Grid, Row, Col, Form, FormGroup, FormControl, ControlLabel, Panel, Button } from 'react-bootstrap';
 
+import MapSection from './map-section';
+
 class InputSection extends Component {
 
   render() {
@@ -47,6 +49,7 @@ class InputSection extends Component {
             </Panel>
           </Row>
         </Grid>
+        <MapSection initialPosition={{ lat: 48.858608, lng: 2.294471 }}/>
       </div>
     );
   }

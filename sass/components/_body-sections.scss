@@ -1,0 +1,11 @@
+//input Section
+
+//map Section
+#map{
+  width: 100%;
+  > div{
+    position: relative !important;
+    width: 100% !important;
+    height: 500px !important;
+  }
+}
