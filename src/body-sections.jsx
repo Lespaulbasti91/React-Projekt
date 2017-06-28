@@ -16,10 +16,10 @@ class BodySections extends Component {
       return (
         <InputSection sections={this.props.sections}/>
       );
-    case 'mapSection':
+    /*case 'mapSection':
       return (
-        <MapSection sections={this.props.sections}/>
-      );
+        <MapSection initialPosition={{ lat: 48.858608, lng: 2.294471 }} sections={this.props.sections}/>
+      );*/
     default:
       return false;
     }

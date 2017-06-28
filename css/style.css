@@ -1,0 +1,10 @@
+/* line 4, ../sass/components/_body-sections.scss */
+#map {
+  width: 100%;
+}
+/* line 6, ../sass/components/_body-sections.scss */
+#map > div {
+  position: relative !important;
+  width: 100% !important;
+  height: 500px !important;
+}
