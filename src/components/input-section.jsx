@@ -5,6 +5,22 @@ import { Grid, Row, Col, Form, FormGroup, FormControl, ControlLabel, Panel, Butt
 import MapSection from './map-section';
 
 class InputSection extends Component {
+  constructor() {
+    super();
+    this.state = {
+      coords: {},
+    };
+    this.success = this.success.bind(this);
+  }
+
+  componentDidMount() {
+    navigator.geolocation.getCurrentPosition(this.success);
+  }
+
+  success(pos) {
+    const crd = pos.coords;
+    this.setState({ coords: crd });
+  }
 
   render() {
     return (
@@ -49,7 +65,7 @@ class InputSection extends Component {
             </Panel>
           </Row>
         </Grid>
-        <MapSection initialPosition={{ lat: 48.858608, lng: 2.294471 }}/>
+        <MapSection initialCenter={{ lat: 51.041241, lng: 13.6977528 }} coords={ this.state.coords }/>
       </div>
     );
   }
