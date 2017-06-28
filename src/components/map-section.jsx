@@ -49,7 +49,7 @@ export default class MapSection extends Component {
                   initialCenter={this.props.initialCenter}
                 >
                   <Marker
-                    onMouseover={this.onMouseoverMarker}
+                    onClick={this.onMouseoverMarker}
                     name={'current Position'}
                     position={{
                       lat: latitude,
